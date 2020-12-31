@@ -4,116 +4,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-        integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <meta name="title" content="Fruit Locker">
+    <meta name="description"
+        content="Fruit Locker is a website helping family businesses grow. Providing services of online sales with the delivery of fruits and vegetables.">
+    <meta name="keywords"
+        content="family business, delicious, fruits, vegetables, ecological, delivery, online shopping, buy fruit online, buy vegetables online, oranges, mandarins, clementines, pomegranates, lemons, kiwis, olives, handpicked">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Fruit Locker</title>
     <script src="https://kit.fontawesome.com/51a34fad2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light container-fluid">
-        <div class="d-none d-md-block">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a clsss="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item mr-2"><a clsss="nav-link" href="index.html">About</a></li>
-                <li class="nav-item mr-2"><a clsss="nav-link" href="index.html">Contact Us</a></li>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+
+        <a href="index.html" class="title mr-auto">Fruit Locker</a>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target='#navbarNavDropdown'
+            aria-controls='navbarNavDropdown' aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="active nav-item mr-2"><a clsss="nav-link" href="index.html">Home</a></li> -->
+                <li class="nav-item mr-2"><a class="nav-link" href="index.html">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="index.html">Contact Us</a></li>
             </ul>
         </div>
-        <a href="index.html" class="navbar-brand">Fruit Locker</a>
     </nav>
-    <article class="container mt-3">
-        <div class="row">
-            <div class="col-12 my-3">
-                <section class="callout jumbotron text-center">
-                    <div class="container">
-                        <h1>The fresh fruit delivered straight to your doorstep!</h1>
-                        <p>We are a proud family business of making the best fruits delivered to your doorstep directly
-                            from our
-                            growing place.</p>
-                    </div>
-                </section>
+    <article class="container-fluid">
+        <div class="callout-container">
+            <div class="row">
+                <div class="col-12 my-3">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">The fresh fruit delivered straight to your doorstep!</h1>
+                        <p><strong>From our plantation to your home!</strong></p>
+                        <a href="#"><button type="button" class="btn btn-success btn-order">Order
+                                now!</button></a>
+                    </section>
+                </div>
             </div>
         </div>
         <hr>
-        <section class="order">
-            <div class="container-fluid">
-                <p><strong>From our plantation to your home!</strong></p>
-                <a href="#"><button type="button" class="btn btn-success">Order now!</button></a>
-            </div>
-        </section>
+
+        <div class="container about-us-container content-container">
+            <section class="about-us">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-uppercase">What do we do</h2>
+                        <p>We are a proud family business engaged in growing of delicious fruits such as
+                            mandarines, klementines, oranges, pomegranates, lemons, kiwis and olives. All our products
+                            are hand picked and delivered to your home within the 24 hours.
+                        </p>
+                        <button type="button" class="btn btn-success btn-try">Try and see for yourself!</button>
+                    </div>
+                </div>
+            </section>
+        </div>
         <hr>
-        <section class="about-us">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="text-uppercase">What do we do</h2>
-                    <p>We are a proud family business engaged in growing of delicious fruits such as mandarines,
-                        klementines,
-                        oranges, pomegranates, lemons, kiwis and olives. All our products are hand picked and delivered
-                        to your
-                        home
-                        within the 24
-                        hours. <strong>Try and see for yourself!</strong></p>
+        <div class="container delivery-container content-container">
+            <section class="delivery-section">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2>How we do it</h2>
+                    </div>
                 </div>
-            </div>
-        </section>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <h3 class="text-uppercase">Order <i class="fas fa-shopping-cart d-none d-sm-inline"></i>
+                        </h3>
+                        <p>You can order our products online, or you can call us to place your order.</p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3 class="text-uppercase">Prepare <i class="fas fa-shopping-basket d-none d-sm-inline"></i>
+                        </h3>
+                        <p>We will prepare your basket as soon as you make an order. </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3 class="text-uppercase">Deliver <i class="fas fa-truck d-none d-sm-inline"></i></h3>
+                        <p>The fresh fruit backet you ordered will be delivered straight to your doorstep.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
         <hr>
-        <section class="delivery-section">
-            <div class="row">
-                <div class="col-12 my-3">
-                    <h2>How we do it</h2>
+        <div class="container quotes-container content-container">
+            <section class="quotes-section">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">What our customers say about us</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <i class="fas fa-shopping-cart"></i>
-                    <h3 class="text-uppercase">Order</h3>
-                    <p>You can order our products online, or you can call us to place your order.</p>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="assets/images/Anne.png" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I am delighted by the quality of products and a service!</p>
+                                    <p>- Anne</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="assets/images/Bob.png" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>The mixed fruit basket was an excellent gift for my parents! The service
+                                        was
+                                        fast and
+                                        very
+                                        pleasant.</p>
+                                    <p>- Bob</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-4">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="assets/images/Mark.jpg" class="rounded-circle mr-3" height=100 width=100>
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>Very nice, fresh fruit. Delivered after only 12 hours. What a great
+                                        service!
+                                    </p>
+                                    <p>- Mark</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4">
-                    <i class="fas fa-shopping-basket"></i>
-                    <h3 class="text-uppercase">Prepare</h3>
-                    <p>We will prepare your basket as soon as you make an order. </p>
-                </div>
-                <div class="col-12 col-md-4">
-                    <i class="fas fa-truck"></i>
-                    <h3 class="text-uppercase">Deliver</h3>
-                    <p>The fresh fruit backet you ordered will be delivered straight to your doorstep.</p>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section class="quotes-section">
-            <div class="row">
-                <div class="col-12 my-3">
-                    <h2 class="text-uppercase">What our customers say about us</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <blockquote class="blockquote">
-                        <p>I am delighted by the quality of products and a service!</p>
-                        <p>- Anne</p>
-                    </blockquote>
-                </div>
-                <div class="col-12 col-md-4">
-                    <blockquote class="blockquote">
-                        <p>The mixed fruit basket was an excellent gift for my parents! The service was fast and very
-                            pleasant.</p>
-                        <p>- Bob</p>
-                    </blockquote>
-                </div>
-                <div class="col-12 col-md-4">
-                    <blockquote class="blockquote">
-                        <p>Very nice, fresh fruit. Delivered after only 12 hours. What a great service!</p>
-                        <p>- Mark</p>
-                    </blockquote>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </article>
 
     <hr>
@@ -178,6 +212,15 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
