@@ -11,6 +11,7 @@ html, body {
 
 body {
     font-family: "Exo", sans-serif;
+    font-size: 130%;
 }
 
 .container-fluid {
@@ -20,7 +21,6 @@ body {
 
 .navbar {
     margin-bottom: 0;
-    border: 0;
     padding: 8px 20px;
     width: 100%;
     background-color: rgba(6, 104, 2, 0.75);
@@ -82,7 +82,7 @@ body {
 .page-header {
     margin-bottom: 0;
     border-bottom: 0;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
@@ -93,21 +93,33 @@ body {
 }
 
 .page-header h2 {
+    font-size: 200%;
     margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 10px;
 }
 
 .order-header {
     text-align: center;
-    /* padding-top: 50px;     */
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.how-container {
+    padding-top: 45px;
 }
 
 .content-container {
-    padding: 50px 15px;
+    padding: 75px 15px;
 }
 
-.image1-container {
+.about-us {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
+.delivery {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .guarantee {
@@ -122,6 +134,8 @@ body {
 }
 
 .list-style li {
+    font-size: large;
+    line-height: 150%;
     margin-top: 10px;
 }
 
@@ -149,8 +163,12 @@ body {
     padding: 25px 50px;
 }
 
+.media {
+    padding-top: 15px;
+}
+
 .blockquote {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 /* Footer */
