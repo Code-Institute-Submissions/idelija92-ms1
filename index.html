@@ -10,8 +10,8 @@
     <meta name="keywords"
         content="family business, delicious, fruits, vegetables, ecological, delivery, online shopping, buy fruit online, buy vegetables online, oranges, mandarins, clementines, pomegranates, lemons, kiwis, olives, handpicked">
     <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="language" content="English">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <title>Fruit Locker</title>
@@ -31,8 +31,8 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
                     <!-- <li class="active nav-item mr-2"><a clsss="nav-link" href="index.html">Home</a></li> -->
-                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">About</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Contact Us</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#about-us">About Us</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#contact-us">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -44,13 +44,12 @@
                     <div class="callout jumbotron text-center">
                         <h1 class="jumbotron-header">The fresh fruit delivered straight to your doorstep!</h1>
                         <p><strong>From our plantation to your home!</strong></p>
-                        <a href="#"><button type="button" class="btn btn-success btn-order">Order
-                                now!</button></a>
+                        <a href="#order" class="btn btn-success btn-order">Order now!</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="container-fluid about-us content-container">
+        <section class="container-fluid about-us content-container" id="about-us">
             <div class="row">
                 <div class="col-12 page-header">
                     <h2 class="text-uppercase"><strong>Who</strong> are we</h2>
@@ -66,7 +65,7 @@
                 </div>
             </div>
         </section>
-        <img src="assets/images/Pomegranate and oranges.png" class="img-fluid" style="width: 100%"
+        <img src="assets/images/Pomegranate-oranges.png" class="img-fluid" style="width:100%"
             alt="Pomegranate and orange">
         <section class="container-fluid content-container">
             <div class="row">
@@ -100,7 +99,7 @@
                                 sure the time suits you!</p>
                         </div>
                     </div>
-                    <img src="assets/images/orange-logo.png" class="orange-logo">
+                    <img src="assets/images/orange-logo.png" class="orange-logo" alt="Orange logo">
                     <h4 class="text-uppercase guarantee">We <strong>guarantee</strong> you:</h4>
                     <ul class="list-style">
                         <li><strong>Our own production and safe origin ✓</strong></li>
@@ -108,20 +107,19 @@
                         <li><strong>Quality guarantee ✓</strong></li>
                         <li><strong>Home delivery ✓</strong></li>
                     </ul>
-                    <button type="button" class="btn btn-success btn-try">Try and see for yourself!</button>
+                    <a href="#order" class="btn btn-success btn-try">Try and see for yourself!</a>
                 </div>
             </div>
         </section>
-        <img src="assets/images/Basket of fruit.png" class="img-fluid" style="width: 100%" alt="Basket of fruit">
-        <section class="container content-container">
+        <img src="assets/images/Fruit-basket.png" class="img-fluid" style="width:100%" alt="Basket of fruit">
+        <section class="container content-container" id="order">
             <div class="row">
                 <div class="col-12 text-uppercase page-header">
                     <h2><strong>Order</strong></h2>
-                    <form style=padding-top:30px>
+                    <form style=padding-top:20px>
                         <div class="form-row align-items-center">
                             <div class="col-6 my-1">
-                                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelectFruit">
                                     <option selected>Choose fruit...</option>
                                     <option value="1">Orange</option>
                                     <option value="2">Mandarine</option>
@@ -130,8 +128,7 @@
                                 </select>
                             </div>
                             <div class="col-6 my-1">
-                                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelectQuantity">
                                     <option selected>Quantity...</option>
                                     <option value="1">5 kg</option>
                                     <option value="2">10 kg</option>
@@ -148,8 +145,8 @@
                                 <input type="email" class="form-control" placeholder="Email*" id="inputEmail4">
                             </div>
                             <div class="form-group col-md-4">
-                                <input type="text" name="txtPhone" class="form-control"
-                                    placeholder="Your Phone Number*" id="inputPhone" value="" />
+                                <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number*"
+                                    id="inputPhone" value="" />
                             </div>
                         </div>
                         <div class="form-group">
@@ -161,13 +158,13 @@
                                 <input type="text" class="form-control" id="inputCity" placeholder="City*">
                             </div>
                             <div class="form-group col-md-4">
-                                <select id="inputState" class="form-control">
+                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelectCounty">
                                     <option selected>County*</option>
                                     <option>...</option>
                                 </select>
                             </div>
                             <div class="form-group col-md-2">
-                                <input type="text" class="form-control"  id="inputZip" placeholder="Zip Code*">
+                                <input type="text" class="form-control" id="inputZip" placeholder="Zip Code*">
                             </div>
                             <div class="col-auto my-1">
                                 <button type="submit" class="btn btn-primary btn-success">Submit</button>
@@ -177,11 +174,11 @@
                 </div>
             </div>
         </section>
-        <section class="container content-container">
+        <section class="container content-container" id="contact-us">
             <div class="row">
                 <div class="col-12 text-uppercase page-header">
                     <h2><strong>Contact us</strong></h2>
-                    <form>
+                    <form style="padding-top:20px">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -189,11 +186,11 @@
                                         value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email*"
+                                    <input type="email" name="txtEmail" class="form-control" placeholder="Your Email*"
                                         value="" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="txtPhone" class="form-control"
+                                    <input type="number" name="txtPhone" class="form-control"
                                         placeholder="Your Phone Number*" value="" />
                                 </div>
                             </div>
@@ -221,7 +218,8 @@
                 <div class="col-12 col-sm-12 col-lg-4">
                     <div class="media">
                         <div class="d-sm-block">
-                            <img src="assets/images/Bob.png" class="rounded-circle mr-3" height=100 width=100>
+                            <img src="assets/images/Bob.png" class="rounded-circle mr-3" height=100 width=100
+                                alt="Image of user1">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -235,7 +233,8 @@
                 <div class="col-12 col-sm-12 col-lg-4">
                     <div class="media">
                         <div class="d-sm-block">
-                            <img src="assets/images/Anne.png" class="rounded-circle mr-3" height=100 width=100>
+                            <img src="assets/images/Anne.png" class="rounded-circle mr-3" height=100 width=100
+                                alt="Image of user 2">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -248,7 +247,8 @@
                 <div class="col-12 col-sm-12 col-lg-4">
                     <div class="media">
                         <div class="d-sm-block">
-                            <img src="assets/images/Mark.jpg" class="rounded-circle mr-3" height=100 width=100>
+                            <img src="assets/images/Mark.jpg" class="rounded-circle mr-3" height=100 width=100
+                                alt="Image of user 3">
                         </div>
                         <div class="media-body">
                             <blockquote class="blockquote">
@@ -266,7 +266,7 @@
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
-                <a href="#" class="nav-link">
+                <a href="#about-us" class="nav-link">
                     <h5>About Us</h5>
                 </a>
                 <p>
@@ -274,7 +274,7 @@
                 </p>
             </div>
             <div class="col-sm-4">
-                <a href="#" class="nav-link">
+                <a href="#contact-us" class="nav-link">
                     <h5>Contact Us</h5>
                 </a>
                 <p>

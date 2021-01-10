@@ -109,7 +109,7 @@ body {
 }
 
 .content-container {
-    padding: 75px 15px;
+    padding: 60px 15px;
 }
 
 .about-us {
@@ -195,7 +195,7 @@ footer {
 
 .social-links li a i {
     width: 32px;
-    height: 32 px;
+    height: 32px;
     padding: 12px 0;
     border-radius: 50%;
     font-size: 13px;
