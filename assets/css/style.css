@@ -122,6 +122,32 @@ body {
     padding-right: 10%;
 }
 
+.offer {
+    padding: 5px 10px;
+    margin: 30px 0;
+    border: 5px solid orange;
+    box-shadow: 1.1px 1.7px 2px 0px rgba(179, 67, 2, 0.2);
+    background-color: rgba(192, 240, 192, 0.274);
+
+}
+
+.offer-image img {
+    padding: 5px 5px;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%);
+    transform: translateY(-40%);
+}
+
+.offer-body {
+    transform: translateY(-30%);
+}
+
+.offer-body p {
+    font-size: 80%;
+}
+
 .delivery {
     padding-left: 10%;
     padding-right: 10%;
@@ -166,6 +192,7 @@ body {
 
 .btn-try {
     padding: 25px 50px;
+    font-size: larger;
 }
 
 .media {

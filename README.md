@@ -1,6 +1,7 @@
 <h1 align="center">Fruit Locker<h1>
 
 
+
 ## Purpose
 
 * This website is built to market a family business growing and selling their fruits. The aim is to present the family business's work and attract more customers to a home delivery service.
@@ -9,7 +10,9 @@
 This website is designed to be used across mobile and desktop devices.
 
 
+
 ## User Experience (UX)
+
 
 ### User Stories
 ####  First Time Visitor Goals
@@ -27,6 +30,7 @@ This website is designed to be used across mobile and desktop devices.
    b.  The frequent user would be interested in purchasing the products.
    c.  They would be interested in leaving feedback.
 
+
 ### Design
 ####    Colour Scheme
    + Two primary colours used were orange and green (rgba(6, 104, 2, 0.75)). Those are natural, warm colours, and they reflect the business of growing fruits itself where the primary fruit is orange.
@@ -38,8 +42,11 @@ This website is designed to be used across mobile and desktop devices.
 ####    Imagery
    + Imagery is essential as the owner wants to showcase its products. There are three large full-width images breaking the content which give the user an exact representation of the subject matter.
 
+
 ### Wireframes
    + Wireframes were made using Balsamiq Wireframes.
+
+
 
 ##  Features
    + Responsive to be used on mobile, tablet and desktop devices.
