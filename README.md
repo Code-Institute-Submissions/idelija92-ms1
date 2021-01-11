@@ -46,8 +46,42 @@ This website is designed to be used across mobile and desktop devices.
 ### Wireframes
    + Wireframes were made using Balsamiq Wireframes.
 
+   + Mobile Wireframes - [view](/assets/images/Wireframes/Mobile/).
+   + Desktop Wireframes - [view](assets/images/Wireframes/Desktop/)
+
 
 
 ##  Features
    + Responsive to be used on mobile, tablet and desktop devices.
    + Interactive elements.
+
+
+
+##  Technologies Used
+
+
+### Languages Used
+   + [HTML5](https://en.wikipedia.org/wiki/HTML5)
+   + [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
+
+### Frameworks, Libraries & Programs Used
+1. [Bootstrap 4.5.3](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+   + Bootstrap was used to assist with the responsiveness and styling of the website.
+2. [Hover.css](https://ianlunn.github.io/Hover/)
+   + Hover.css was used in the footer section to add the transition to social links while being hovered over.
+3. [Google Fonts](https://fonts.google.com/)
+   + Google Fonts were used to import "Exo" font into the style.css file which was used on the whole page.
+4. [Font Awesome](https://fontawesome.com/)
+   + Font Awesome was used throughout the page to add icons for UX purposes.
+5. [Balsamiq](https://balsamiq.com/)
+   + Balsamiq was used to create wireframes for the page.
+6. [Visual Studio Code](https://code.visualstudio.com/)
+   + Visual Studio Code was used as the IDE for coding and creation of the source files. Integrated terminal was used to commit and push changes to GitHub.
+7. [Git](https://git-scm.com/)
+   + Git was used for version control by utilizing the VSCode terminal to commit and push to GitHub.
+8. [GitHub](https://github.com/)
+   + GitHub was used to store project after being pushed from Git.
+
+
+
+##  Testing
