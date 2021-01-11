@@ -211,6 +211,10 @@ body {
     padding-bottom: 10px;
 }
 
+.contact-info {
+    font-size:50%;
+}
+
 /* Footer */
 
 footer {
