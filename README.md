@@ -16,19 +16,19 @@ This website is designed to be used across mobile and desktop devices.
 
 ### User Stories
 ####  First Time Visitor Goals
-   a.  A primary goal of the first time visitor is to be able to access the website easily.
-   b.  The first time visitor should be able to understand the website clearly as well as the purpose of the website.
-   c.  The first time visitor should be able to easily navigate the website, understand the layout and find the wanted content.
+   i. A primary goal of the first time visitor is to be able to access the website easily.
+   ii. The first time visitor should be able to understand the website clearly as well as the purpose of the website.
+   iii. The first time visitor should be able to easily navigate the website, understand the layout and find the wanted content.
 
 ####  Returning Visitor Goals
-   a.  Returning visitor may wish to get more familiar with the products displayed.
-   b.  The returning visitor may be interested in getting to know more about the business and to contact the owner.
-   c.  The returning visito would like to find community links.
+   i. Returning visitor may wish to get more familiar with the products displayed.
+   ii. The returning visitor may be interested in getting to know more about the business and to contact the owner.
+   iii. The returning visito would like to find community links.
 
 ####  Frequent User Goals
-   a.  The frequent user's goal would be to check to see which seasonal products are available.
-   b.  The frequent user would be interested in purchasing the products.
-   c.  They would be interested in leaving feedback.
+   i. The frequent user's goal would be to check to see which seasonal products are available.
+   ii. The frequent user would be interested in purchasing the products.
+   iiii. They would be interested in leaving feedback.
 
 
 ### Design
@@ -92,20 +92,20 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 
 ###  Testing User Stories from User Experience (UX) Section
 
-#####  First Time Visitor Goals
-   a.  A primary goal of the first time visitor is to be able to access the website easily.
-   b.  The first time visitor should be able to understand the website clearly as well as the purpose of the website.
-   c.  The first time visitor should be able to easily navigate the website, understand the layout and find the wanted content.
+####  First Time Visitor Goals
+   i. A primary goal of the first time visitor is to be able to access the website easily.
+   ii. The first time visitor should be able to understand the website clearly as well as the purpose of the website.
+   iii. The first time visitor should be able to easily navigate the website, understand the layout and find the wanted content.
 
-#####  Returning Visitor Goals
-   a.  Returning visitor may wish to get more familiar with the products displayed.
-   b.  The returning visitor may be interested in getting to know more about the business and to contact the owner.
-   c.  The returning visito would like to find community links.
+####  Returning Visitor Goals
+   i. Returning visitor may wish to get more familiar with the products displayed.
+   ii. The returning visitor may be interested in getting to know more about the business and to contact the owner.
+   iii. The returning visito would like to find community links.
 
-##### Frequent User Goals
-   a.  The frequent user's goal would be to check to see which seasonal products are available.
-   b.  The frequent user would be interested in purchasing the products.
-   c.  They would be interested in leaving feedback.
+#### Frequent User Goals
+   i. The frequent user's goal would be to check to see which seasonal products are available.
+   ii. The frequent user would be interested in purchasing the products.
+   iii. They would be interested in leaving feedback.
 
 
 
