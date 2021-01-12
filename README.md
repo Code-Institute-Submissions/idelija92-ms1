@@ -48,6 +48,7 @@ This website is designed to be used across mobile and desktop devices.
 
    + Mobile Wireframes - [view](/assets/images/Wireframes/Mobile/).
    + Desktop Wireframes - [view](assets/images/Wireframes/Desktop/).
+
    ![Homepage](/assets/images/Wireframes/Desktop/Homepage.png)
 
 
@@ -86,6 +87,27 @@ This website is designed to be used across mobile and desktop devices.
 
 
 ##  Testing
+
+The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate every page of the project for any syntax errors in the project.
+
+###  Testing User Stories from User Experience (UX) Section
+
+#####  First Time Visitor Goals
+   a.  A primary goal of the first time visitor is to be able to access the website easily.
+   b.  The first time visitor should be able to understand the website clearly as well as the purpose of the website.
+   c.  The first time visitor should be able to easily navigate the website, understand the layout and find the wanted content.
+
+#####  Returning Visitor Goals
+   a.  Returning visitor may wish to get more familiar with the products displayed.
+   b.  The returning visitor may be interested in getting to know more about the business and to contact the owner.
+   c.  The returning visito would like to find community links.
+
+##### Frequent User Goals
+   a.  The frequent user's goal would be to check to see which seasonal products are available.
+   b.  The frequent user would be interested in purchasing the products.
+   c.  They would be interested in leaving feedback.
+
+
 
 ###  Further Testing
    + This website was tested on Google Chrome, Mozilla Firefox, Microsoft Edge and Safari Browsers.
@@ -146,3 +168,12 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 7. Press Enter. Your local clone will be created.
 
 Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+
+
+##  Credits
+
+   + My mentor Victor Miclovich who helped me with his knowledge, experience and advice throughout this course.
+   + Tutor support at Code Institute for their support.
+   + The Business owner, who provided photographs used in this project, as well as advising on colour schemes, layout and the content.
+   + Family and friends who showed their support and tested the website.
