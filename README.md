@@ -47,6 +47,7 @@ This website is designed to be used across mobile and desktop devices.
    + Wireframes were made using Balsamiq Wireframes.
 
    + Mobile Wireframes - [view](/assets/images/Wireframes/Mobile/).
+   ![Homepage](/assets/images/Wireframes/Mobile/HomePage-Mobile.png)
    + Desktop Wireframes - [view](assets/images/Wireframes/Desktop/)
 
 
