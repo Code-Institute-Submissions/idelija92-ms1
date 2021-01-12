@@ -11,7 +11,7 @@ body {
 
 body {
     font-family: "Exo", sans-serif;
-    font-size: 130%;
+    font-size: 1.3rem;
 }
 
 .container-fluid {
@@ -194,10 +194,6 @@ body {
     -o-transition: all 0.1s ease-in-out;
 }
 
-.btn-try {
-    padding: 25px 50px;
-    font-size: larger;
-}
 
 .media {
     padding-top: 15px;
@@ -251,10 +247,6 @@ footer {
     -moz-transition: all 0.1s ease-in-out;
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: orange;
 }
 
 #footer-details {
