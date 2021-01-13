@@ -1,6 +1,6 @@
 <h1 align="center">Fruit Locker<h1>
 
-
+[Live](https://idelija92.github.io/ms1/) link to the website.
 
 ## Purpose
 
@@ -202,12 +202,12 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 
 The project was deployed to GitHub Pages using the folowing steps:
 
-1. Log in to [GitHub](https://github.com/) and locate the [GitHub Repository](https://github.com/idelija92/ms1)
+1. Log in to [GitHub](https://github.com/) and locate the GitHub repository.
 2. At the top of the repository, locate the "Settings" button on the menu.
 3. Go to "GitHub Pages" section.
 4. Under "Source", click the dropdown menu, and select "Master Branch".
 5. The page will automatically refresh.
-6. Locate the new published site [link]() in the "GitHub Pages" section.
+6. Locate the new published site link in the "GitHub Pages" section.
 
 The following two sections were taken from the Code Institute's "Sample README.md" [template](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md). 
 
@@ -234,8 +234,12 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 7. Press Enter. Your local clone will be created.
 
-Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
+## Code
+
+- Template codes were taken from [Bootstrap](https://getbootstrap.com/) and heavily modified to suit the needs of the project.
+- Template codes used in the earlier stages of the course were taken and modified to the needs of the project.
+- Full width background image code snippet taken from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
 
 
 ##  Credits

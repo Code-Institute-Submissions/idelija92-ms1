@@ -74,7 +74,7 @@ body {
 }
 
 .jumbotron h3 {
-    color:  rgba(81, 226, 76, 0.75);
+    color: rgba(81, 226, 76, 0.75);
     margin-bottom: 30px;
 }
 
@@ -208,10 +208,12 @@ body {
 }
 
 .contact-info {
-    font-size:50%;
+    font-size: 50%;
 }
 
 /* Footer */
+/* credit: code for the footer was taken as a template from the earlier section of the course and modified to suit the needs of this project */
+
 
 footer {
     background-color: rgba(6, 104, 2, 0.75);
