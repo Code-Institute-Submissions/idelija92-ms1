@@ -1,6 +1,6 @@
 <h1 align="center">Fruit Locker<h1>
 
-[Live](https://idelija92.github.io/ms1/) link to the website.
+#### [Live](https://idelija92.github.io/ms1/) link to the website.
 
 ## Purpose
 
@@ -239,7 +239,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 - Template codes were taken from [Bootstrap](https://getbootstrap.com/) and heavily modified to suit the needs of the project.
 - Template codes used in the earlier stages of the course were taken and modified to the needs of the project.
-- Full width background image code snippet taken from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
+- Full width background image code snippet taken from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/).
 
 
 ##  Credits
